@@ -1,0 +1,155 @@
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, img, fieldset, select, legend {
+  margin: 0;
+  padding: 0;
+  font-weight: 500px;
+  box-sizing: border-box;
+  font-family: HYQiHei,Microsoft YaHei,HYQiHei-DZS,Avenir,Helvetica,Arial,sans-serif; }
+
+body {
+  background-color: #f7f7f7;
+  font-size: 12px; }
+
+div {
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+em, i, b, strong, h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px; }
+
+img, fieldset {
+  border: none; }
+
+img {
+  vertical-align: middle; }
+
+body {
+  min-width: 1080px; }
+  body #app div header {
+    background-color: #fff; }
+    body #app div header .backColor {
+      background-color: #f5f5f5; }
+      body #app div header .backColor .header {
+        width: 1080px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        position: relative; }
+        body #app div header .backColor .header .headerLeft {
+          float: left;
+          position: relative; }
+          body #app div header .backColor .header .headerLeft a {
+            display: block;
+            float: left;
+            margin-right: 14px; }
+            body #app div header .backColor .header .headerLeft a div {
+              display: none;
+              width: 160px;
+              height: 180px;
+              padding: 10px 20px;
+              background-color: #fff;
+              font-size: 14px;
+              position: absolute;
+              top: 16px;
+              left: 80px;
+              border-radius: 10px;
+              z-index: 999;
+              text-align: center;
+              box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.12); }
+              body #app div header .backColor .header .headerLeft a div img {
+                width: 120px;
+                height: 120px;
+                border: 0; }
+        body #app div header .backColor .header .headerRight {
+          float: left;
+          position: absolute;
+          right: 0; }
+          body #app div header .backColor .header .headerRight div {
+            float: left; }
+            body #app div header .backColor .header .headerRight div .login-btn {
+              margin-right: 14px; }
+    body #app div header .conttainer-box {
+      width: 1080px;
+      margin: 0 auto;
+      box-sizing: border-box; }
+      body #app div header .conttainer-box .conttainer {
+        height: 76px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box; }
+        body #app div header .conttainer-box .conttainer a {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body #app div header .conttainer-box .conttainer a img {
+            width: 193px;
+            height: 51px;
+            border: 0; }
+        body #app div header .conttainer-box .conttainer ul {
+          width: 440px;
+          margin: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+        body #app div header .conttainer-box .conttainer .search-box {
+          position: relative;
+          width: 244px;
+          height: 36px;
+          border-radius: 18px;
+          background-color: #f2f2f2;
+          padding: 0 16px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body #app div header .conttainer-box .conttainer .search-box input {
+            width: 120px;
+            height: 36px;
+            border: none;
+            font-size: 100%;
+            outline: none;
+            background-color: #f2f2f2; }
+          body #app div header .conttainer-box .conttainer .search-box img {
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            top: 10px;
+            right: 16px; }
+          body #app div header .conttainer-box .conttainer .search-box .search-hot {
+            position: absolute;
+            right: 42px;
+            top: 0;
+            width: 65px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            font-size: 12px;
+            color: #fa4187; }
+        body #app div header .conttainer-box .conttainer .head-cart {
+          margin-left: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 126px;
+          height: 36px;
+          color: #fff;
+          border-radius: 18px;
+          background: #333; }
+          body #app div header .conttainer-box .conttainer .head-cart img {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px; }
+    body #app div header .header-space {
+      height: 2px;
+      width: 100%;
+      box-sizing: border-box;
+      background: linear-gradient(90deg, #0ff, #00b1ff 34%, #4e73ff 65%, #ff00d0); }

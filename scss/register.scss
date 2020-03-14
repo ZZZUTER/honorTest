@@ -1,0 +1,423 @@
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,img,fieldset,select,legend{
+	margin:0;
+    padding:0;
+    font-weight: 500px;
+    box-sizing: border-box;
+    font-family: HYQiHei,Microsoft YaHei,HYQiHei-DZS,Avenir,Helvetica,Arial,sans-serif;
+}
+body{
+    background-color: #fff;
+    font-size: 12px;
+    
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+em,i,b,strong,h1,h2,h3,h4,h5,h6{
+	font-style:normal;
+	font-weight:500;
+	font-size:16px;
+}
+img,fieldset{
+	border:none;
+}
+img{
+	vertical-align: middle;
+}
+body{
+    #topContent{
+        .gray-customer-header{
+            background: rgba(0,0,0,0.05);
+            // background-color: red;
+            height: 48px;
+            .head_center{
+                width: auto;
+                max-width: 1200px;
+                height: 100%;
+                margin: 0 auto;
+                border: 0;
+                position: relative;
+                font-size: 0;
+                div{
+                    height: 100%;
+                    text-align: left;
+                    font-size: 0;
+                    span{
+                        height: 100%;
+                        vertical-align: middle;
+                        display: inline-block;
+                        }
+                    img{
+                        vertical-align: middle;
+                        margin-top: 0;
+                        float: none;
+                        height: 24px;
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+    }
+    div{
+        .hwid-root{
+            color: #191919;
+            .hwid-register-main{
+                margin: 0 auto;
+                width: 1200px;
+                .hwid-left{
+                    float: left;
+                    margin-top: 40px;
+                    width: 240px;
+                    .hwid-left-t{
+                        background: rgba(0,0,0,0.05);
+                        padding: 16px;
+                        border-radius: 8px;
+                        width: 100%;
+                        .hwid-phone{
+                            margin: 0 16px;
+                            cursor: pointer;
+                         //    line-height: 52px;
+                            font-size: 14px;
+                            display: inline-flex;
+                            -webkit-box-align: center;
+                            align-items: center;
+                            i{
+                                float: left;
+                                width: 16px;
+                                height: 16px;
+                                background-image: url(../images/phone.png);
+                                margin: 0 8px;
+                                span{
+                                    text-align: left;
+                                    display: inline-block;
+                                    line-height: 1.3;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    .hwid-left-b{
+                     padding: 16px;
+                     border-radius: 8px;
+                     width: 100%;
+                     .hwid-mail{
+                         margin: 0 16px;
+                         cursor: pointer;
+                         // line-height: 52px;
+                         font-size: 14px;
+                         display: inline-flex;
+                         -webkit-box-align: center;
+                         align-items: center;
+                         i{
+                             float: left;
+                             width: 16px;
+                             height: 16px;
+                             background-image: url(../images/mail.png);
+                             margin: 0 8px;
+                             span{
+                                 text-align: left;
+                                 display: inline-block;
+                                 line-height: 1.3;
+                             }
+                         }
+                     }
+                 }
+                }
+                .hwid-register-content{
+                    margin: 0 auto;
+                    width: 960px;
+                    div{
+                        .hwid-reg-detail{
+                            padding: 60px 260px 38px;
+                            font-size: 14px;
+                            .hwid-registerTitle{
+                                text-align: center;
+                                margin: 10px 0 60px;
+                                .hwid-mainTitle-t{
+                                    text-align: center;
+                                    font-size: 32px;
+                                    span{
+                                        text-align: left;
+                                        display: inline-block;
+                                        line-height: 1.3;
+                                    }
+                                }
+                                .hwid-mainTitle-b{
+                                    margin-top: 8px;
+                                    font-size: 18px;
+                                    display: inline-block;
+                                    .hmbl{
+                                        float: left;
+                                    }
+                                    .hmbr{
+                                        margin-left: 4px;
+                                        float: left;
+                                        color: #007dff;
+                                        .arrow{
+                                            
+                                            transform: rotate(-45deg);
+                                            // margin-left: -3px;
+                                            border: solid #007dff;
+                                            margin-bottom: 0;
+                                            display: inline-block;
+                                            width: 8px;
+                                            height: 8px;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                            .country{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .country-left{
+                                    float: left;
+                                    padding: 0 16px;
+                                    height: 100%;
+                                    line-height: 48px;
+                                }
+                                .country-right{
+                                    float: right;
+                                    height: 48px;
+                                    line-height: 48px;
+                                    .dropdown{
+                                        float: right;
+                                        background: url(../images/dropdown.png);
+                                        margin: 20px 16px 0 8px;
+                                        width: 12px;
+                                        height: 7px;
+                                    }
+                                }
+                            }
+                            .phone{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .phone-left{
+                                    float: left;
+                                    padding: 0 16px;
+                                    height: 100%;
+                                    line-height: 48px;
+                                    .dropdown{
+                                        float: right;
+                                        background: url(../images/dropdown.png);
+                                        margin: 20px 16px 0 8px;
+                                        width: 12px;
+                                        height: 7px;
+                                    }
+                                    .line{
+                                        left: 40px;
+                                        top: 8px;
+                                        background: rgba(0,0,0,0.1);
+                                        width: 1px;
+                                        height: 28px;
+                                        display: inline-block;
+                                        position: relative;
+                                        line-height: 42px;
+                                    }
+                                }
+                                .phone-right{
+                                    position: relative;
+                                    height: 100%;
+                                    input{
+                                        border: 0;
+                                        background: transparent;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                    }
+                                }
+                            }
+                            .code{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .code-left{
+                                    float: left;
+                                    // width: 100%;
+                                    input{
+                                        border: 0;
+                                        background: transparent;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                        // width: 100%;
+                                    }
+                                }
+                                .code-right{
+                                    float: right;
+                                    a{
+                                        border: 0;
+                                        background: transparent;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                        color: #007dff;
+                                        opacity: .38;
+                                    }
+                                }
+                            }
+                            .password{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .pleft{
+                                    float: left;
+                                    width: 100%;
+                                    input{
+                                        border: 0;
+                                        background: transparent;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                        width: 100%;
+                                    }
+                                }
+                                .pright{
+                                    i{
+                                        right: 0;
+                                        margin: 0 16px 0 0;
+                                        background-image: url(../images/eye.png);
+                                        height: 24px;
+                                        width: 24px;
+                                        position: absolute;
+                                        top: 25%;
+                                    }
+                                }
+                            }
+                            .repassword{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .rpleft{
+                                    float: left;
+                                    width: 100%;
+                                    input{
+                                        border: 0;
+                                        background: transparent;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                        width: 100%;
+                                    }
+                                }
+                                .rpright{
+                                    i{
+                                        right: 0;
+                                        margin: 0 16px 0 0;
+                                        background-image: url(../images/eye.png);
+                                        height: 24px;
+                                        width: 24px;
+                                        position: absolute;
+                                        top: 25%;
+                                    }
+                                }
+                            }
+                            .birthday{
+                                margin-top: 20px;
+                                background: rgba(0,0,0,0.05);
+                                border-radius: 8px;
+                                border: 1 solid transparent;
+                                height: 48px;
+                                width: 100%;
+                                position: relative;
+                                .bleft{
+                                    float: left;
+                                    span{
+                                        text-align: left;
+                                        display: inline-block;
+                                        line-height: 1.3;
+                                        padding: 0 16px;
+                                        line-height: 48px;
+                                    }
+                                }
+                                .bright{
+                                    float: right;
+                                    div{
+                                        float: left;
+                                        padding: 0 4px;
+                                        line-height: 48px;
+                                        .dropdown{
+                                            float: right;
+                                            background: url(../images/dropdown.png) no-repeat;
+                                            margin: 20px 0px 0 8px;
+                                            width: 12px;
+                                            height: 7px;
+                                        }
+                                    }
+                                }
+                                i{
+                                    width: 18px;
+                                    height: 18px;
+                                    position: absolute;
+                                    top: 16px;
+                                    right: -38px;
+                                    background-image: url(../images/ts.png);
+                                }
+                            }
+                            .btn{
+                                margin-top: 50px;
+                                text-align: center;
+                                input{
+                                    border-radius: 8px;
+                                    background: #007dff;
+                                    border: 1 solid #ccc;
+                                    width: 276px;
+                                    height: 48px;
+                                    font-size: 18px;
+                                    font-weight: 400px;
+                                    display: inline-block;
+                                    opacity: .38;
+                                    color: #fff;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+    .buttom-box{
+        text-align: center;
+        width: 100%;
+        // height: 100%;
+        font-size: 14px;
+        box-sizing: border-box;
+        padding: 30px;
+        background: #ebebeb;
+        font-weight: 500;
+        position: absolute;
+        bottom: 0;
+        .buttom{
+            span{
+                color: #999;
+            }
+            .tocheck{
+                color: #007dff;
+                text-decoration: underline;
+                padding: 0 6px;
+            }
+        }
+    }
+}
