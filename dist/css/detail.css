@@ -1,0 +1,892 @@
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, img, fieldset, select, legend {
+  margin: 0;
+  padding: 0;
+  font-weight: 500px;
+  box-sizing: border-box;
+  font-family: HYQiHei,Microsoft YaHei,HYQiHei-DZS,Avenir,Helvetica,Arial,sans-serif; }
+
+body {
+  background-color: #fff;
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+em, i, b, strong, h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px; }
+
+img, fieldset {
+  border: none; }
+
+div {
+  box-sizing: border-box; }
+
+body {
+  min-width: 1080px;
+  background: #f7f7f7; }
+  body #app div header {
+    background-color: #fff; }
+    body #app div header .backColor {
+      background-color: #f5f5f5; }
+      body #app div header .backColor .header {
+        width: 1080px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        position: relative; }
+        body #app div header .backColor .header .headerLeft {
+          float: left;
+          position: relative; }
+          body #app div header .backColor .header .headerLeft a {
+            display: block;
+            float: left;
+            margin-right: 14px; }
+            body #app div header .backColor .header .headerLeft a div {
+              display: none;
+              width: 160px;
+              height: 180px;
+              padding: 10px 20px;
+              background-color: #fff;
+              font-size: 14px;
+              position: absolute;
+              top: 16px;
+              left: 80px;
+              border-radius: 10px;
+              z-index: 999;
+              text-align: center;
+              box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.12); }
+              body #app div header .backColor .header .headerLeft a div img {
+                width: 120px;
+                height: 120px;
+                border: 0; }
+        body #app div header .backColor .header .headerRight {
+          float: left;
+          position: absolute;
+          right: 0; }
+          body #app div header .backColor .header .headerRight div {
+            float: left; }
+            body #app div header .backColor .header .headerRight div .login-btn {
+              margin-right: 14px; }
+    body #app div header .conttainer-box {
+      width: 1080px;
+      margin: 0 auto;
+      box-sizing: border-box; }
+      body #app div header .conttainer-box .conttainer {
+        height: 76px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box; }
+        body #app div header .conttainer-box .conttainer a {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body #app div header .conttainer-box .conttainer a img {
+            width: 193px;
+            height: 51px;
+            border: 0; }
+        body #app div header .conttainer-box .conttainer ul {
+          width: 440px;
+          margin: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+        body #app div header .conttainer-box .conttainer .search-box {
+          position: relative;
+          width: 244px;
+          height: 36px;
+          border-radius: 18px;
+          background-color: #f2f2f2;
+          padding: 0 16px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body #app div header .conttainer-box .conttainer .search-box input {
+            width: 120px;
+            height: 36px;
+            border: none;
+            font-size: 100%;
+            outline: none;
+            background-color: #f2f2f2; }
+          body #app div header .conttainer-box .conttainer .search-box img {
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            top: 10px;
+            right: 16px; }
+          body #app div header .conttainer-box .conttainer .search-box .search-hot {
+            position: absolute;
+            right: 42px;
+            top: 0;
+            width: 65px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            font-size: 12px;
+            color: #fa4187; }
+        body #app div header .conttainer-box .conttainer .head-cart {
+          margin-left: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 126px;
+          height: 36px;
+          color: #fff;
+          border-radius: 18px;
+          background: #333; }
+          body #app div header .conttainer-box .conttainer .head-cart img {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px; }
+    body #app div header .header-space {
+      height: 2px;
+      width: 100%;
+      box-sizing: border-box;
+      background: linear-gradient(90deg, #0ff, #00b1ff 34%, #4e73ff 65%, #ff00d0); }
+
+body #app {
+  /* body */ }
+  body #app .routerView {
+    min-width: 520px;
+    box-sizing: border-box; }
+    body #app .routerView .detail-box {
+      box-sizing: border-box;
+      background: #fff; }
+      body #app .routerView .detail-box .detail {
+        box-sizing: border-box; }
+        body #app .routerView .detail-box .detail .itemContainer {
+          width: 1080px;
+          margin-bottom: 30px;
+          margin: 0 auto; }
+          body #app .routerView .detail-box .detail .itemContainer .list-nav {
+            color: #333;
+            font-size: 14px;
+            line-height: 50px; }
+            body #app .routerView .detail-box .detail .itemContainer .list-nav a {
+              color: #333;
+              text-decoration: none; }
+            body #app .routerView .detail-box .detail .itemContainer .list-nav span {
+              cursor: pointer;
+              box-sizing: border-box; }
+          body #app .routerView .detail-box .detail .itemContainer .lf_imgList {
+            float: left;
+            width: 426px; }
+            body #app .routerView .detail-box .detail .itemContainer .lf_imgList .bigImg {
+              width: 426px;
+              height: 426px;
+              border: 1px solid #e6e6e6;
+              margin-bottom: 9px;
+              box-sizing: border-box; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .bigImg .magnifyImg {
+                width: 100%;
+                height: 100%; }
+                body #app .routerView .detail-box .detail .itemContainer .lf_imgList .bigImg .magnifyImg .small {
+                  width: 100%;
+                  height: 100%;
+                  position: relative; }
+                  body #app .routerView .detail-box .detail .itemContainer .lf_imgList .bigImg .magnifyImg .small img {
+                    width: 100%;
+                    height: 100%;
+                    border: 0; }
+            body #app .routerView .detail-box .detail .itemContainer .lf_imgList .countDownTime_container {
+              position: relative;
+              height: 0;
+              width: 100%; }
+            body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList {
+              width: 426px;
+              height: 78px;
+              position: relative; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .lf_btn {
+                width: 38px;
+                height: 76px;
+                text-align: center;
+                line-height: 76px;
+                color: #999;
+                background: #f7f7f7;
+                border: 1px solid #e6e6e6;
+                cursor: pointer;
+                position: absolute;
+                left: 0;
+                z-index: 33; }
+                body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .lf_btn i {
+                  font-weight: 400;
+                  font-variant: normal;
+                  text-transform: none;
+                  line-height: 1;
+                  vertical-align: baseline;
+                  display: inline-block; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .mid_pic {
+                width: 331px;
+                height: 76px;
+                overflow: hidden;
+                position: absolute;
+                left: 47px;
+                top: 0; }
+                body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .mid_pic ul {
+                  width: 513px;
+                  left: 0px;
+                  position: absolute;
+                  transition: all .3s; }
+                  body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .mid_pic ul li {
+                    float: left;
+                    width: 76px;
+                    height: 76px;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    border: 1px solid #e6e6e6;
+                    margin-right: 9px;
+                    cursor: pointer; }
+                    body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .mid_pic ul li img {
+                      width: 100%;
+                      height: 100%; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .rt_btn {
+                width: 38px;
+                height: 76px;
+                text-align: center;
+                line-height: 76px;
+                color: #999;
+                background: #f7f7f7;
+                border: 1px solid #e6e6e6;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                z-index: 33; }
+                body #app .routerView .detail-box .detail .itemContainer .lf_imgList .imgList .rt_btn .el-icon-arrow-right {
+                  font-family: element-icons !important;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-variant: normal;
+                  text-transform: none;
+                  line-height: 1;
+                  vertical-align: baseline;
+                  display: inline-block; }
+            body #app .routerView .detail-box .detail .itemContainer .lf_imgList .proExplain {
+              position: relative;
+              height: 35px; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .proExplain .proExplain-show {
+                background-image: url("https://res.vmallres.com/pimages/cnqx/pages/picImages/FBrdkiGStZplPctrDf5W.png");
+                width: 100%;
+                height: 100%;
+                background-position: 50%;
+                background-size: contain;
+                background-repeat: no-repeat; }
+              body #app .routerView .detail-box .detail .itemContainer .lf_imgList .proExplain img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0; }
+          body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer {
+            margin-left: 21px;
+            width: 629px;
+            float: left; }
+            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer p {
+              color: #333;
+              font-size: 22px;
+              line-height: 22px;
+              width: 492px; }
+            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .productSub {
+              width: 492px;
+              margin-top: 10px;
+              position: relative; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .productSub p {
+                line-height: 19px;
+                font-size: 14px;
+                color: #333; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .productSub .slogan_ad {
+                max-height: 57px;
+                font-size: 14px;
+                overflow: hidden; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .productSub .slogan_ad p {
+                  color: #fa4187; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .productSub .showMore {
+                position: absolute;
+                right: -30px;
+                top: 22px;
+                width: 18px;
+                height: 10px;
+                background: url(data:image/png;base64,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);
+                background-size: 18px 10px; }
+            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box {
+              width: 648px;
+              padding: 15px 8px;
+              background-color: #f7f7f7;
+              margin: 15px 0; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice {
+                height: 24px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice .lf_text {
+                  float: left;
+                  line-height: 25px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice .unitPrice {
+                  display: inline-block;
+                  font-size: 15px;
+                  color: #fa4187;
+                  margin-right: 6px; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice .unitPrice .price-icon {
+                    font-size: 14px; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice .unitPrice .price-num {
+                    font-size: 18px;
+                    margin-left: -6px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .proPrice .oldPrice {
+                  font-size: 14px;
+                  color: #999;
+                  text-decoration: line-through; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList {
+                margin-top: 10px;
+                box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList .lf_text {
+                  float: left;
+                  line-height: 25px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList div {
+                  margin-top: 3px;
+                  display: inline-block;
+                  width: 500px; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList div ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList div ul li {
+                      box-sizing: border-box;
+                      padding: 2px 8px;
+                      display: inline-block;
+                      height: 20px;
+                      margin-right: 6px;
+                      margin-bottom: 4px;
+                      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIcAAAAUCAYAAACnFS7nAAABbklEQVRoQ+3aP1LCQBTH8fcWltGKC3gGe62ScAcbL2Dn6KgEBgWVyR91zFg4Y2PpMUxSae8ZvICdJpB1NguYIDfgR5eSz3wn2X27nDtBVJD6EgUpwg8CWkAQE3GbcyscyrR7CRUIVAV0Fzyxg+eGaDzw6+kHeCCgBVTndntaTA9ZP+ROeCfj7gloIFDtwcRhBxfN5HvMNCrAs94CikZiYm8MZOJecW6HHWK1I2N3vN4s+PdzgdwJBqT4nTPbe2ol/QPQQKAqoLvgzPKiVto/Ag0EanFYXqR3K3uKaEsm7j14IDBbgx4z0adZkFr+sJn+XGNBijjKBam1ea5nX7Pdin8jk94ZaCBg3hymB85s/5GZX2TsvoEGAmbOEewqpfZZf1Jk2sP4HF3UBHQX2MoiipUC5VYWQzDUsSywGIJhfI44qgK18blZgODgDYn8Ccx7wJE9qvgnsDiyx2Uf1LFKoLzsg2uCiGNZoBDEgrj9C9cFp8uGyudeAAAAAElFTkSuQmCC);
+                      background-size: 100% 100%; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList div ul li span {
+                        color: #fa4187;
+                        font-size: 12px; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .getCouponList div ul li .getCoupon {
+                        cursor: pointer;
+                        font-weight: 700; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales {
+                margin-top: 10px;
+                box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales .lf_text {
+                  float: left;
+                  line-height: 40px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div {
+                  display: inline-block;
+                  vertical-align: top; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div ul {
+                    display: inline-block;
+                    vertical-align: middle; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div ul li {
+                      float: left; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div ul li .gift-item {
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 5px;
+                        cursor: pointer; }
+                        body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div ul li .gift-item img {
+                          border: 1px solid #fa4187;
+                          background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDcuMjggMTA3LjI4Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZhNDE4Nzt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPui1hOa6kCAxPC90aXRsZT48ZyBpZD0i5Zu+5bGCXzIiIGRhdGEtbmFtZT0i5Zu+5bGCIDIiPjxnIGlkPSLlm77lsYJfMS0yIiBkYXRhLW5hbWU9IuWbvuWxgiAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMDcuMjgsMCwwLDEwNy4yOEgxMDcuMjhWMFptLTQ3LDk4LjY1TDQxLjM1LDc5LjcybDcuMS03LjFMNjAuMjcsODQuNDUsOTMuMzksNTEuMzJsNy4xLDcuMVoiLz48L2c+PC9nPjwvc3ZnPg==) no-repeat 100% 100%;
+                          background-size: 10px 10px;
+                          width: 100%;
+                          height: 100%;
+                          padding: 5px;
+                          box-sizing: border-box; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div .go-choose {
+                    display: inline-block;
+                    margin-top: 11px;
+                    color: #1a1a1a;
+                    font-size: 14px;
+                    cursor: pointer; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .info-box .promoteSales div .go-choose i {
+                      line-height: 1;
+                      vertical-align: baseline;
+                      display: inline-block; }
+            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box {
+              width: 648px;
+              padding-left: 8px; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs {
+                box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div {
+                  box-sizing: border-box; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .lf_text {
+                    float: left;
+                    line-height: 25px;
+                    font-size: 14px;
+                    color: #999;
+                    width: 56px;
+                    white-space: nowrap;
+                    text-align-last: justify;
+                    text-align: justify;
+                    display: block;
+                    margin-right: 24px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    box-sizing: border-box; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .contain {
+                    display: inline-block;
+                    width: 500px; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .contain ul {
+                      display: flex;
+                      flex-wrap: wrap;
+                      flex-direction: row; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .contain ul li {
+                        background: #fff;
+                        border: 1px solid #a4a4a4;
+                        box-sizing: border-box;
+                        padding: 2px 10px;
+                        cursor: pointer;
+                        margin-right: 10px;
+                        margin-bottom: 10px; }
+                        body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .contain ul li img {
+                          width: 30px;
+                          height: 30px;
+                          vertical-align: middle; }
+                        body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .allSpecs div .contain ul li span {
+                          color: #333;
+                          font-size: 14px; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer {
+                box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .lf_text {
+                  float: left;
+                  line-height: 25px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server {
+                  display: inline-block;
+                  width: 500px; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    width: 549px; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li {
+                      background: #fff;
+                      border: 1px solid #a4a4a4;
+                      box-sizing: border-box;
+                      padding: 1px 18px 1px 10px;
+                      cursor: pointer;
+                      margin-right: 10px;
+                      margin-bottom: 10px;
+                      position: relative;
+                      color: #333; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .service-sbomname {
+                        max-width: 164px;
+                        display: inline-block;
+                        font-size: 14px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .service-price {
+                        max-width: 44px;
+                        display: inline-block;
+                        font-size: 14px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .arrow-icon {
+                        background-position: 0 -6px;
+                        position: absolute;
+                        top: 9px;
+                        right: 3px;
+                        width: 10px;
+                        height: 4px;
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAnklEQVQoU2NkgILvTi3yzP9Y5oO4f5n+JHLuq3kIYjOCCJgkSALEBymEKWL879op9fv3/yXIumAaWFkZYxg/WzWI8XBzsjDuLn8Gsw5EgzR++fr9D+P06dPF2NjYWJKTk1EUzJ07V+rXr19/GEGMP3/+LPn9+3diTk4O2GFTpkyRZ2Vlnc/CwhIDdiRMAKQIxAdJwjSAFSArArGRTQMA1V1Xf8v/JvkAAAAASUVORK5CYII=);
+                        background-size: cover; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .serverLine {
+                        position: absolute;
+                        bottom: -1px;
+                        width: 100%;
+                        left: 0;
+                        height: 1px;
+                        background: #fff;
+                        z-index: 7;
+                        display: none; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer {
+                        width: 400px;
+                        position: absolute;
+                        bottom: 0;
+                        left: -1px;
+                        transform: translateY(100%);
+                        box-sizing: border-box;
+                        background: #fff;
+                        border: 1px solid #a4a4a4;
+                        display: none;
+                        z-index: 5; }
+                        body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul {
+                          padding: 15px 10px; }
+                          body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li {
+                            position: relative;
+                            padding-left: 20px; }
+                            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li .input-checkbox-box {
+                              display: inline-block;
+                              position: absolute;
+                              top: 1;
+                              left: 0;
+                              margin-right: 10px;
+                              width: 13px;
+                              height: 13px; }
+                              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li .input-checkbox-box input {
+                                display: none;
+                                font-size: 100%;
+                                outline: none; }
+                              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li .input-checkbox-box label {
+                                box-sizing: border-box; }
+                            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li div {
+                              display: inline-block; }
+                              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li div span {
+                                margin-right: 5px; }
+                              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li div p {
+                                display: inline-block;
+                                vertical-align: bottom; }
+                                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li div p span {
+                                  float: left; }
+                                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .optionalServer .rt_server ul li .moreServer ul li div p i {
+                                  opacity: 0;
+                                  float: left;
+                                  margin-top: 1px;
+                                  margin-left: 10px;
+                                  font-size: 12px;
+                                  background: #fff; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount {
+                box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount .lf_text {
+                  float: left;
+                  line-height: 35px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount div {
+                  display: inline-block; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount div span {
+                    width: 35px;
+                    height: 35px;
+                    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAACCAYAAABsfz2XAAAAE0lEQVQYV2M8c+bMfwYSACOpGgDhVQbJ3vBG6wAAAABJRU5ErkJggg==) no-repeat;
+                    background-position: 50% 50%;
+                    cursor: not-allowed;
+                    display: inline-block;
+                    vertical-align: middle;
+                    border: 1px solid #f0f0f0;
+                    user-select: none;
+                    box-sizing: border-box; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount div input {
+                    -moz-appearance: textfield;
+                    background: #fafafa;
+                    border: 1px solid #f0f0f0;
+                    width: 81px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    color: #333;
+                    font-size: 18px;
+                    transform: translateY(3px);
+                    margin-left: -4px;
+                    outline: none; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .buyCount div .span2 {
+                    width: 35px;
+                    height: 35px;
+                    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAALElEQVQoU2NkwAKMjY3/g4TPnj3LiC6NIQBSMNQ0wNyLzfPYxBhJ1jASgxUAgHUrPRa4ZHUAAAAASUVORK5CYII=) no-repeat;
+                    background-position: 50% 50%;
+                    cursor: pointer;
+                    margin-left: -4px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    border: 1px solid #f0f0f0;
+                    user-select: none;
+                    box-sizing: border-box; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct {
+                margin-top: 10px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .lf_text {
+                  float: left;
+                  line-height: 25px;
+                  font-size: 14px;
+                  color: #999;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .recommend-list {
+                  max-height: 80px;
+                  width: 549px;
+                  float: left;
+                  overflow: hidden; }
+                  body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .recommend-list ul {
+                    width: 549px; }
+                    body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .recommend-list ul li {
+                      display: inline-block;
+                      margin: 0 10px 10px 0;
+                      background: #f5f5f5; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .recommend-list ul li img {
+                        width: 30px;
+                        height: 30px;
+                        display: inline-block;
+                        border: 0;
+                        box-sizing: border-box; }
+                      body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .recommendProduct .recommend-list ul li span {
+                        line-height: 30px;
+                        padding: 0 20px 0 5px;
+                        display: inline-block;
+                        max-width: 505px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        border-radius: 2px;
+                        cursor: pointer;
+                        color: #333;
+                        font-size: 14px; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .hasChoosed {
+                margin-top: 10px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .hasChoosed span {
+                  line-height: 30px;
+                  color: #fa4187;
+                  float: left;
+                  font-size: 14px;
+                  width: 56px;
+                  white-space: nowrap;
+                  text-align-last: justify;
+                  text-align: justify;
+                  display: block;
+                  margin-right: 24px;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .specs-box .hasChoosed p {
+                  display: inline-block;
+                  width: 500px;
+                  color: #fa4187;
+                  font-size: 14px;
+                  vertical-align: top;
+                  line-height: 30px; }
+            body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn {
+              width: 648px;
+              height: 46px;
+              margin: 10px 0 60px 88px;
+              box-sizing: border-box; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .buyNow {
+                margin-right: 10px;
+                min-width: 179px;
+                padding: 0 15px;
+                background: #fa4187;
+                text-align: center;
+                line-height: 46px;
+                border: 1px solid #f34889;
+                color: #fff;
+                font-size: 20px;
+                height: 46px;
+                float: left;
+                cursor: pointer; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .buyCart {
+                margin-right: 10px;
+                min-width: 179px;
+                text-align: center;
+                line-height: 46px;
+                border: 1px solid #f34889;
+                color: #fa4187;
+                font-size: 20px;
+                height: 46px;
+                float: left;
+                cursor: pointer; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .wishList {
+                margin-right: 10px;
+                width: 80px;
+                box-sizing: border-box;
+                padding: 7px 20px 5px;
+                background: #fafafa;
+                border: 1px solid #e6e6e6;
+                height: 46px;
+                float: left;
+                cursor: pointer; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .wishList span {
+                  width: 23px;
+                  height: 18px;
+                  margin: 0 auto;
+                  display: block;
+                  margin-bottom: 2px;
+                  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAVCAYAAACzK0UYAAADaklEQVRIS7WVXWhcVRDH/3ObaE1MwyYvJosoCEpFQQpF2vpUq081iLDaGCI07D13E93GVEopGFha3/OgYM7cREIN+LE1WPtg6oMGX6xaP6oVIWlRxNdkQz6o2Y87MmE3nt7u1lLxPN1zZ875zX/OnDmE2Ojv729taWnZH0XRQ57nRVEU/Voqlb6Ympr6K+6bzWZ3FIvFAyLyAICSiFxeXl7+Mp/PF11fciZkjDkK4DiAHwBcAuAB2EVEO0XkJDO/rf6pVGpbIpF4HUAWwAUAvwBoBrAbwP1EdMJaO13buwZRwDQR3Ssih5n5qhtJOp3e6XneaRG51N7ePryysnIGgERRZCYmJv50fY0xuwC8S0Qz1tpRtW1CgiBQBc8uLS0diEutbTAyMnLX+vr6OQCPishsMpk8nMvlongKdT44OJioVCqq8Dgzf6wKWgD8XqlU9k5OTl6pt8gFra2t9SaTyalGgJpvOp3e73neW8z8MGUymYMicsRa+/TNALdjM8ZcIaIeVfIaEd1jrT12OxvdbI0x5iMRmf5fIb7vz2wWge/7B4lomJmfikeVSqXu6OzsfHB8fPxyo4gzmcwji4uL8/UKxhhzlYieqR38b0T0hLV2wd3M9/3HiOgdZtayrDuCIPg+iqKBMAx/jJX9PwevBmPMCIDnCoXCk25Exhi9YH+ISE8Yht/GKb7v7yaiswDuY+ZSzV4t4a+J6Ji19qx7Gd8jou0iknIX+L7fQ0QWwGihUDitQWgaE4nESwBOiUgQhuEnNYAxpl1EPiOiz5n5xNZlrKrRqN+vtpLnXVAQBHtE5BSAx4moICIJABrpqLX2KxcA4LyIXAjD8NV4W9mca3qI6AP9FpEXXJD+01u/urra2dbWtjg2NnbNTV+1WSrgG2Yedm1ug9wCAfgQgLaMQ3FQvdPv6+vb0draOisiF8MwPBL3uQHiKMqLSLm7u/tQLpcrN6qugYGBtqampvMAvmNm7co3jLoQ9aoebp6Iil1dXb31QFXArD4NzPxKo0AaQhzQGRHZWFhY6J2bm9tSpIDm5uZP9d2x1r7cCHBddTVyUkUdHR3ag67Nz8+/qKChoaG7y+WyAn5mZgXIf4I4imY0dSLyJoA3iOgna+3QvwFuSUktwmw2e+fGxsaoiOzzPO+ctXbsVgC6/m9pl5njKAegTgAAAABJRU5ErkJggg==) no-repeat;
+                  background-size: 23px 18px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .wishList .p1 {
+                  text-align: center;
+                  font-size: 12px;
+                  margin: 0;
+                  padding: 0;
+                  width: 38px;
+                  line-height: normal; }
+              body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .customerServer {
+                width: 80px;
+                box-sizing: border-box;
+                padding: 5px 26px;
+                background: #fafafa;
+                border: 1px solid #e6e6e6;
+                height: 46px;
+                float: left;
+                cursor: pointer; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .customerServer span {
+                  width: 23px;
+                  height: 18px;
+                  margin: 0 auto;
+                  display: block;
+                  margin-bottom: 2px;
+                  background: url(data:image/png;base64,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) no-repeat;
+                  background-size: 23px 18px; }
+                body #app .routerView .detail-box .detail .itemContainer .rt_chooseServer .funBtn .customerServer .p1 {
+                  text-align: center;
+                  color: #666;
+                  font-size: 12px;
+                  margin: 0;
+                  padding: 0;
+                  width: 26px;
+                  line-height: normal; }
+
+body #app {
+  /* footer */ }
+  body #app .footer-box {
+    box-sizing: border-box; }
+    body #app .footer-box .footer {
+      background: #333;
+      color: #fff;
+      display: block;
+      box-sizing: border-box; }
+      body #app .footer-box .footer .foot-guarantee {
+        background: #fff; }
+        body #app .footer-box .footer .foot-guarantee .guarantee-box {
+          height: 124px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 1080px;
+          margin: 0 auto; }
+          body #app .footer-box .footer .foot-guarantee .guarantee-box .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            body #app .footer-box .footer .foot-guarantee .guarantee-box .flex img {
+              width: 55px;
+              height: 55px;
+              margin-right: 12px; }
+            body #app .footer-box .footer .foot-guarantee .guarantee-box .flex h3 {
+              color: #333;
+              font-size: 18px;
+              font-weight: 300; }
+      body #app .footer-box .footer #footer {
+        padding: 40px 0 28px;
+        text-align: center;
+        width: 1080px;
+        margin: 0 auto; }
+        body #app .footer-box .footer #footer .flex {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body #app .footer-box .footer #footer .flex div h2 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: #fff; }
+          body #app .footer-box .footer #footer .flex div a {
+            width: 203px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 30px;
+            color: #333;
+            font-size: 12px;
+            line-height: 22px; }
+            body #app .footer-box .footer #footer .flex div a img {
+              width: 24px;
+              height: 22px;
+              margin-right: 6px;
+              margin-bottom: 0; }
+          body #app .footer-box .footer #footer .flex div .app_img {
+            cursor: pointer;
+            width: 105px;
+            height: 105px;
+            margin-bottom: 18px; }
+          body #app .footer-box .footer #footer .flex div .foot-btn {
+            width: 145px;
+            background: #fff;
+            border-radius: 30px;
+            color: #333;
+            font-size: 12px;
+            line-height: 22px; }
+          body #app .footer-box .footer #footer .flex .footer-interval {
+            width: 1px;
+            height: 78px;
+            background: #666; }
+        body #app .footer-box .footer #footer .private {
+          width: 199px;
+          margin: auto;
+          margin-top: 25px;
+          font-size: 12px;
+          color: #999;
+          margin-bottom: 5px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body #app .footer-box .footer #footer .private a {
+            font-weight: 600;
+            color: #999;
+            cursor: pointer; }
+        body #app .footer-box .footer #footer .foot-right p {
+          width: 750px;
+          color: #999;
+          font-size: 12px;
+          line-height: 15px;
+          margin: 0 auto; }

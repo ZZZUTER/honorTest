@@ -198,3 +198,691 @@ body{
     }
     
 }
+body{
+    .routerView{
+        min-height: 520px;
+        box-sizing: border-box;
+        .banner-box{
+            .banner{
+                .index-nav{
+                    position: relative;
+                    width: 1080px;
+                    margin: 0 auto;
+                    box-sizing: border-box;
+                    .nav-box{
+                        padding: 15px 0;
+                        position: absolute;
+                        z-index: 5;
+                        background-color: #fff;
+                        transition: .3s;
+                        .title-li{
+                            padding: 0 24px 0 20px;
+                            width: 258px;
+                            height: 60px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            div{
+                                h5{
+                                    font-size: 15px;
+                                    color: #333;
+                                    margin-bottom: 2px;
+                                }
+                                .small-title-li{
+                                    font-size: 12px;
+                                    color: #333;
+                                    display: flex;
+                                    justify-content: center;
+                                    li{
+                                        width: 55px;
+                                    }
+                                }
+                            }
+                            img{
+                                width: 7px;
+                                height: 11px;
+                            }
+                            .nav-more{
+                                position: absolute;
+                                top: 0;
+                                left: 258px;
+                                display: none;
+                                background-color: #f5f5f5;
+                                width: 822px;
+                                height: 450px;
+                                text-align: center;
+                                padding: 41px 0 0 35px;
+                                a{
+                                    figure{
+                                        width: 176px;
+                                        height: 176px;
+                                        margin:  0 16px 16px 0 ;
+                                        background: #fff;
+                                        padding-top: 19px;
+                                        border-radius: 4px;
+                                        box-sizing: border-box;
+                                        display: block;
+                                        img{
+                                            width: 107px;
+                                            height: 107px;
+                                            margin-bottom: 14px;
+                                        }
+                                        span{
+                                            font-size: 14px;
+                                            color: #333;
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .el-carousel{
+                    // overflow: hidden;
+                    position: relative;
+                    .container{
+                        height: 450px;
+                        position: relative;
+                        .container-left{
+                            background-image: url(../images/left.png);
+                            width: 60px;
+                            height: 60px;
+                            background-color: transparent;
+                            background-size: cover;
+                            left: 16px;
+                            border: none;
+                            transition: .3s;
+                            border-radius: 50%;
+                            color: #fff;
+                            position: absolute;
+                            top: 50%;
+                            z-index: 10;
+                            transform: translateY(-50%);
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                        .container-right{
+                            background-image: url(../images/right.png);
+                            width: 60px;
+                            height: 60px;
+                            background-color: transparent;
+                            background-size: cover;
+                            right: 16px;
+                            border: none;
+                            transition: .3s;
+                            border-radius: 50%;
+                            color: #fff;
+                            position: absolute;
+                            top: 50%;
+                            z-index: 10;
+                            transform: translateY(-50%);
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                        .el1{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/1.jpg);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                        .el2{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/2.jpg);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                        .el3{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/3.jpg);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                        .el4{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/4.png);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                        .el5{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/5.jpg);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                        .el6{
+                            width: 100%;
+                            display: inline-block;
+                            overflow: hidden;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            a{
+                                .banner-imgbg{
+                                    height: 450px;
+                                    background-image: url(../images/6.jpg);
+                                    background-size: cover;
+                                    background-position: 50%;
+                                }
+                            }
+                        }
+                    }
+                    .inducators{
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        position: absolute;
+                        z-index: 2;
+                        li{
+                            display: inline-block;
+                            padding: 12px 4px;
+                            background-color: transparent;
+                            cursor: pointer;
+                            button{
+                                width: 11px;
+                                height: 3px;
+                                border-radius: 2px;
+                                display: block;
+                                opacity: .48;
+                                // background-color: #fff;
+                                background-color: red;
+                                border: none;
+                                outline: 0;
+                                cursor: pointer;
+                                transition: .3s;
+                            }
+                        }
+                    }
+                }
+            }
+            .floor1{
+                width: 1080px;
+                margin: 0 auto;
+                margin-top: 44px;
+                display: block;
+                padding: 0;
+                box-sizing: border-box;
+                .title{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-between;
+                    margin-bottom: 16px;
+                    padding: 0 5px;
+                    .title-box{
+                        display: flex;
+                        align-items: baseline;
+                        h3{
+                            font-size: 24px;
+                            margin-right: 14px;
+                            line-height: 30px;
+                        }
+                        p{
+                            font-size: 14px;
+                            letter-spacing: 3px;
+                            line-height: 16px;
+                        }
+                    }
+                    .flex{
+                        font-size: 14px;
+                        line-height: 14px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        span{
+                            box-sizing: border-box;
+                            font-weight: 400;
+                        }
+                        img{
+                            width: 6px;
+                            height: 10px;
+                            margin-left: 5px;
+                            border: 0;
+                        }
+                    }
+                }
+                .el-row{
+                    position: relative;
+                    box-sizing: border-box;
+                    .el-col-10{
+                        width: 41.66667%;
+                        float: left;
+                        box-sizing: border-box;
+                        a{
+                            height: 274px;
+                            background: #fff;
+                            padding: 0 16px 16px;
+                            margin: 0 6px 16px;
+                            border-radius: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            .flex{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .infoBig{
+                                    padding-top: 16px;
+                                    width: 206px;
+                                    height: 190px;
+                                    flex: 1;
+                                    div{
+                                        h3{
+                                            font-size: 16px;
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;white-space: nowrap;
+                                        }
+                                        p{
+                                            font-size: 14px;
+                                            color: #999;
+                                            margin: 6px 0;
+                                            width: 100%;
+
+                                        }
+                                    }
+                                    div{
+                                        small{
+                                            color: #fa4187;
+                                            font-size: 14px;
+                                        }
+                                        span{
+                                            color: #fa4187;
+                                            font-size: 22px; 
+                                        }
+                                    }
+                                }
+                                .el-image{
+                                    padding-top: 16px;
+                                    display: inline-block;
+                                    img{
+                                        width: 174px;
+                                        height: 174px;
+                                        vertical-align: top;
+                                    }
+                                }
+                            }
+                            .schedule{
+                                margin-top: 10px;
+                                color: #999;
+                                font-size: 14px;
+                                .flex{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    div{
+                                        span{
+                                            color: #fa4187;
+                                        }
+                                    }
+                                    span{
+                                        color: #fa4187;
+                                    }
+                                }
+                                .process-box{
+                                    overflow: hidden;
+                                    border-radius: 2px;
+                                    margin: 4px 0;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    background: #e6e6e6;
+                                    .process{
+                                        width: 217%;
+                                        background: linear-gradient(90deg,#0ff,#00b1ff 34%,#4e73ff 65%,#ff00d0);
+                                        height: 3px;
+                                        max-width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .el-col-7{
+                        width: 29.1667%;
+                        float: left;
+                        box-sizing: border-box;
+                        a{
+                            height: 274px;
+                            background: #fff;
+                            padding: 0 16px 16px;
+                            margin: 0 6px 16px;
+                            border-radius: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            .titleSmall{
+                                padding-top: 16px;
+                                h3{
+                                    font-size: 16px;
+                                    text-overflow: ellipsis;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                }
+                            }
+                            .flex-fundingOther{
+                                margin-top: -20px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .infoSmall{
+                                    height: 140px;
+                                    flex: 1;
+                                    div{
+                                        p{
+                                            width: 120px;
+                                            font-size: 14px;
+                                            color: #999;
+                                            margin: 6px 0;
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
+                                            white-space: nowrap;
+                                        }
+                                        small{
+                                            color: #fa4187;
+                                            font-size: 14px;
+                                        }
+                                        span{
+                                            color: #fa4187;
+                                            font-size: 22px;
+                                        }
+                                    }
+                                }
+                                .el-image{
+                                    width: 140px;
+                                    height: 140px;
+                                    display: inline-block;
+                                    img{
+                                        vertical-align: top;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                            .schedule{
+                                margin-top: 10px;
+                                color: #999;
+                                font-size: 14px;
+                                .flex{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    div{
+                                        span{
+                                            color: #fa4187;
+                                        }
+                                    }
+                                }
+                                .process-box{
+                                    overflow: hidden;
+                                    border-radius: 2px;
+                                    margin: 4px 0;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    background: #e6e6e6;
+                                    .process{
+                                        width: 141%;
+                                        background: linear-gradient(90deg,#0ff,#00b1ff 34%,#4e73ff 65%,#ff00d0);
+                                        height: 3px;
+                                        max-width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .floor2{
+                width: 1080px;
+                margin: 0 auto;
+                display: block;
+            }
+            .container-floors{
+                width: 1080px;
+                margin: 0 auto;
+                display: block;
+                padding: 0;
+                section{
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    .goods-list{
+                        margin-top: 28px;
+                        box-sizing: border-box;
+                        .classify-title{
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: space-between;
+                            margin-bottom: 6px;
+                            padding: 0 5px;
+                            width: 1080px;
+                            .title-box{
+                                display: flex;
+                                align-items: baseline;
+                                width: 990px;
+                                h3{
+                                    font-size: 24px;
+                                    color: #333;
+                                    margin-right: 14px;
+                                    line-height: 30px;
+                                    max-width: 720px;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    letter-spacing: 3px;
+                                    line-height: 16px;
+                                    color: #333;
+                                    flex: 1;
+                                    font-weight: 300;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                            }
+                            a{
+                                color: #333;
+                                font-size: 14px;
+                                line-height: 14px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                span{
+                                    box-sizing: border-box;
+                                    font-weight: 400;
+                                }
+                                img{
+                                    width: 6px;
+                                    height: 10px;
+                                    margin-left: 5px;
+                                    border: 0;
+                                }
+                            }
+                        }
+                        .el-row{
+                            position: relative;
+                            box-sizing: border-box;
+                            .floorImage{
+                                width: 636px;
+                                height: 324px;
+                                margin: 10px 6px;
+                                float: left;
+                                a{
+                                    display: block;
+                                    height: 324px;
+                                    border-radius: 4px;
+                                    text-decoration: none;
+                                    background-size: cover;
+                                    background-position: 50%;
+                                    div{
+                                        display: block;
+                                        height: 324px;
+                                        border-radius: 4px;
+                                        background-size: cover;
+                                        background-position: 50%;
+                                        img{
+                                            vertical-align: top;
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                            .colCom{
+                                width: 204px;
+                                height: 324px;
+                                margin: 10px 6px;
+                                border-radius: 4px;
+                                float: left;
+                                box-sizing: border-box;
+                                a{
+                                    display: flex;
+                                    justify-content: center;
+                                    text-decoration: none;
+                                    .commodity-item{
+                                        width: 204px;
+                                        height: 324px;
+                                        text-align: center;
+                                        position: relative;
+                                        background: #fff;
+                                        border-radius: 4px;
+                                        padding: 5px 5px 16px;
+                                        figure{
+                                            height: 100%;
+                                            width: 194px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            margin: 0;
+                                            padding: 0;
+                                            div{
+                                                display: inline-block;
+                                                img{
+                                                    width: 194px;
+                                                    height: 194px;
+                                                    background: #f7f7f7;
+                                                    vertical-align: top;
+                                                }
+                                            }
+                                            figcaption{
+                                                padding-left: 9px;
+                                                padding-right: 9px;
+                                                display: block;
+                                                .tag{
+                                                    height: 18px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    margin-bottom: 8px;
+                                                    box-sizing: border-box;
+                                                }
+                                                h5{
+                                                    color: #1a1a1a;
+                                                    font-size: 16px;
+                                                    width: 172px;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    white-space: nowrap;
+                                                }
+                                                p{
+                                                    color: #999;
+                                                    font-size: 12px;
+                                                    margin: 6px 0;
+                                                    width: 172px;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    white-space: nowrap;
+                                                }
+                                                .price-box{
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: baseline;
+                                                    font-size: 12px;
+                                                    box-sizing: border-box;
+                                                    small{
+                                                        font-size: 12px;
+                                                        color: #fa4187;
+                                                        box-sizing: border-box;
+                                                        font-weight: 400;
+                                                    }
+                                                    span{
+                                                        font-size: 16px;
+                                                        color: #fa4187;
+                                                        margin-right: 5px;
+                                                        box-sizing: border-box;
+                                                        font-weight: 400;  
+                                                    }
+                                                    s{
+                                                        font-size: 12px;
+                                                        color: #999;
+                                                        box-sizing: border-box;
+                                                        font-weight: 400;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@ require.config({
         "jquery-cookie": "jquery.cookie",
         "parabola": "parabola",  //抛物线方程不支持AMD规范
         "banner": "banner",
-        "index": "index"
+        "nav": "nav"
     },
     shim: {
         //设置依赖关系
@@ -21,6 +21,7 @@ require.config({
 })
 
 //2、引入模块，调用实现对应的功能
-require(["banner", "index"], function(banner, index){
-    
-}
+require(["banner", "nav"], function(banner, nav){
+    banner.bannerTab();
+    nav.leftNav();
+})
